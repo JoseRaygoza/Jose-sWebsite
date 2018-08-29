@@ -1,0 +1,95 @@
+* { 
+box-sizing: border-box;
+}
+
+body {
+	font-family: Arial; 
+	padding: 10px;
+	background: #2DA93C;
+}	
+
+body {
+	font-size: 25px;
+}
+
+.header {
+	background-color: #83939D;
+	padding: 20px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #567;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #E1E112;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #88887C;
+	color: black;
+}
+
+.onecolumn {
+	float: center;
+	width: 100%;
+	text-align: center;
+	background-color: #83939D;
+	padding: 20px; 
+	color: black;
+}
+
+.leftcolumn {
+	float: left;
+	width: 50%;
+	background-color: #83939D;
+	padding: 20px; 
+}
+
+.rightcolumn {
+	float: left;
+	width: 30%;
+	background-color: #83939D;
+	text-align: center;
+	padding: 20px; 
+}
+
+.rightcolumn2 {
+	float: left;
+	width: 50%;
+	background-color: #83939D;
+	padding: 20px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: bothe;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	padding: 20 px;
+	width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: #83939D;
+	padding: 20px;
+	margin-top: 20px;:
+}
+
